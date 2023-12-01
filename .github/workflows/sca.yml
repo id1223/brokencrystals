@@ -3,9 +3,7 @@ name: SCA Scan
 on:
   pull_request:
     paths:
-      - '**/*.js'
-      - '**/*.json'
-      - '**/*.lock'
+      - '**/*'
 
 jobs:
   sca_scan:
