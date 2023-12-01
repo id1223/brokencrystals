@@ -1,5 +1,10 @@
 name: Build
 
+on:
+  pull_request:
+    paths:
+      - '**/*'
+
 jobs:
   build:
     name: Build
